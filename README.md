@@ -1,18 +1,13 @@
 # Facial Attribute Prediction Project
 
-## 1. Introduction
-
-### 1.1 Project Overview
 This project focuses on predicting **age, race, and gender** from a dataset of **23,706 images** of people, each labeled with the corresponding categories.  
 We are particularly interested in applying **Explainable AI (XAI)** techniques to identify the most relevant features that influence the model's decisions.  
 Additionally, since the dataset contains images of celebrities, we have decided to assign a **unique name to each trained model**.
 
-### 1.2 Analysis Objective
 The goal of this analysis is to develop a **neural network capable of high performance** in image classification.  
 We propose testing **different neural network architectures** to compare results and determine which models provide the best performance.  
 **XAI techniques** will also be applied to extract insights into the most important features driving the classification decisions.
 
-### 1.3 Models Chosen
 We decided to implement the following models to tackle the problem of age, race, and gender classification from images:
 
 - **Convolutional Neural Networks (CNNs)**  
